@@ -1,0 +1,32 @@
+{
+  "56315068-6384-41b7-905e-3aeb025c9d08": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://csulb-my.sharepoint.com/personal/mrudulaajay_bapat01_student_csulb_edu": {
+        "dataSources": {
+          "DemoAppList": {
+            "tableName": "8822eedd-7354-4bd8-82d4-28cbd5a1eb1d"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "DemoAppList"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "56315068-6384-41b7-905e-3aeb025c9d08"
+  }
+}
